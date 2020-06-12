@@ -53,6 +53,8 @@ Available attributes:
 
 The code is a bit crappy but it's a python script, easy to better. Improvements I see interesting:
 
-- In issues list, instead of showing order number starting from 1, use the stored index number https://github.com/duplys/git-issues/blob/master/git-issues#L1108
-- In issues list, show number of comments
-- In issues show, commets display is garbled
+Done in https://github.com/yorikvanhavre/git-issues/commit/6f8089aa71b12693527227f394c7fd25f45134ff
+
+- [x] In issues list, instead of showing order number starting from 1, use the stored index number
+- [x] In issues list, show number of comments
+- [x] In issues show, commets display is garbled
