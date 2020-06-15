@@ -21,8 +21,8 @@ After that you can simply run **git issues** or **git-issues**
 - **git issues** : Shows help text
 - **git issues list** : lists issues
 - **git issues new "My first issue"** : Creates an issue
-- **git issues close 1** : Closes issue 1 (number obtained from `git issues list`) - Warning, after closing issue 1, issue 2 will appear as issue 1 in the list. It is unsafe to refer to an issue by order number. Better to refer to it by its hash:
-- **git issues close d703d01** : The correct way
+- **git issues close 1** : Closes issue 1 (number obtained from `git issues list`) - Warning, it might be unsafe to refer to an issue by order number. Better to refer to it by its hash:
+- **git issues close d703d01** : The better way
 - **git issues show d703d01** : Shows details fo an issue
 - **git issues change d703d01 severity minor** : Changes one attribute of the issue (see available attributes below)
 - **git issues edit d703d01 severity** : Same thing but opens an editor
